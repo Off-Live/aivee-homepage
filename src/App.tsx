@@ -34,7 +34,7 @@ const App: React.FC = () => {
       <div className="flex relative flex-col items-center px-16 pt-10 w-full max-md:px-5 max-md:max-w-full">
         <header className="flex flex-col w-full max-w-[1440px] max-md:max-w-full">
           <div className="flex gap-2.5 justify-between pl-10 text-2xl max-md:flex-wrap max-md:pl-5 max-md:max-w-full">
-            <h3 className="max-sm:invisible font-medium text-white">Home</h3>
+            <h3 className="max-sm:invisible font-medium text-white"><a href="/">Home</a></h3>
             <Button className="justify-center px-10 py-3 font-semibold bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-5 max-md:text-xl">
               Join Waitlist
             </Button>

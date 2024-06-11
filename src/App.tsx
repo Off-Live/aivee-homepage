@@ -75,7 +75,7 @@ const App: React.FC = () => {
               Coming soon!
             </h3>
             <p className="self-stretch mt-10 text-center text-emerald-200 max-md:max-w-full max-md:text-base max-md:mt-5">
-              Join waitlist to get latest update from Aivee
+              Join the waitlist to get the latest update from Aivee
             </p>
             <Button className="justify-center px-20 py-6 mt-10 bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-8 max-md:text-xl max-md:py-3 max-md:mt-5">
               Join Waitlist

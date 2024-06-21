@@ -101,7 +101,7 @@ const Terms: React.FC = () => {
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   Governing Law and Dispute Resolution
                     <p>
-                    These Terms shall be governed by and construed in accordance with the laws of [Insert Jurisdiction]. Any disputes arising under these Terms shall be resolved through arbitration in accordance with the rules of the [Insert Arbitration Association].
+                    These Terms shall be governed by and construed in accordance with the laws of Singapore. Any disputes arising under these Terms shall be resolved through arbitration in accordance with the rules of the Singapore International Arbitration Centre (SIAC).
                     </p>
                   </p>
 

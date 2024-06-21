@@ -11,7 +11,7 @@ const Privacy: React.FC = () => {
           <section className="justify-center self-center mt-20 max-w-full w-[1291px] max-md:mt-10">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
               <div className="flex flex-col ml-5 max-md:ml-0 max-md:w-full">
-                <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full max-sm:text-center">
+                <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full text-justify">
                   <h3 className="text-4xl font-semibold text-emerald-200 max-md:max-w-full max-md:text-4xl">
                   Privacy Policy for Aivee.xyz
                   </h3>
@@ -20,12 +20,12 @@ const Privacy: React.FC = () => {
                   Effective Date: Jun 21, 2024
                   </p>
 
-                  <p className="mt-5 text-xl font-medium max-md:max-w-full max-md:text-xl">
+                  <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   At OFF LIVE PTE. LTD., we are committed to protecting your privacy and ensuring the security of your personal information. This privacy policy explains how we collect, use, and store your data when you use our AI scheduling sidekick application.
                   </p>
 
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
-                    Data Collection
+                    <strong>Data Collection</strong>
                     <ol>
                         <li>1. Screenshots: When you upload screenshots to our application, we collect and analyze them using artificial intelligence to create events in your calendar. These screenshots may contain personal information.</li>
                         <li>2. Contact Information: When you sign in to our application using your Google account, we collect your contact information for Google API, including your name and email address.</li>
@@ -33,49 +33,49 @@ const Privacy: React.FC = () => {
                   </p>
 
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
-                  Data Use
+                  <strong>Data Use</strong>
                     <p>
                     We use the collected data solely for the purpose of providing and improving our service. The screenshots are analyzed by our AI algorithms to extract relevant information and create events in your calendar. We do not use your data for any other purposes or share it with third parties without your explicit consent.
                     </p>
                   </p>
 
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
-                  Data Security
+                  <strong>Data Security</strong>
                     <p>
                     We take the security of your data seriously. All collected data is encrypted and stored securely on our servers. Access to your data is strictly limited to authorized personnel who need it to provide and maintain our service.
                     </p>
                   </p>
 
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
-                  Data Retention
+                  <strong>Data Retention</strong>
                     <p>
                     We retain your data only 90 days to provide our service and comply with legal obligations. You can request the deletion of your data at any time by contacting us at <a href="privacy@aivee.xyz" className="text-inherit">privacy@aivee.xyz</a>.
                     </p>
                   </p>
 
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
-                  User Control
+                  <strong>User Control</strong>
                     <p>
                     You have the right to access, edit, or delete your personal information at any time. You can manage your data directly within the application or by contacting us at <a href="privacy@aivee.xyz" className="text-inherit">privacy@aivee.xyz</a>.
                     </p>
                   </p>
 
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
-                  Consent and Opt-Out
+                  <strong>Consent and Opt-Out</strong>
                     <p>
                     By using our application, you consent to the collection and use of your data as described in this privacy policy. You can opt-out of data collection at any time by discontinuing the use of our application.
                     </p>
                   </p>
 
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
-                  Updates to Privacy Policy
+                  <strong>Updates to Privacy Policy</strong>
                     <p>
                     We may update this privacy policy from time to time. We will notify you of any significant changes via email or through the application.
                     </p>
                   </p>
 
                   <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
-                  Contact Us
+                  <strong>Contact Us</strong>
                     <p>
                     If you have any questions or concerns about our privacy policy or the handling of your data, please contact us at <a href="privacy@aivee.xyz" className="text-inherit">privacy@aivee.xyz</a>.
                     </p>

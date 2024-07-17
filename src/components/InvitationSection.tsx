@@ -19,51 +19,13 @@ const InvitationSection: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col grow items-start py-9 pr-20 pl-3.5 max-md:pr-5 max-md:mt-10 max-md:max-w-full">
-              <div className="ml-9 text-3xl text-white max-md:ml-2.5">July</div>
-              <div className="flex gap-3 mt-6 max-w-full w-[458px] max-md:flex-wrap">
-                <div className="flex flex-col justify-center self-end mt-36 text-lg text-center text-white whitespace-nowrap max-md:hidden max-md:mt-10">
-                  <div>09:00</div>
-                  <div className="mt-14 max-md:mt-10">10:00</div>
-                  <div className="mt-14 max-md:mt-10">11:00</div>
-                  <div className="mt-14 max-md:mt-10">12:00</div>
-                  <div className="mt-14 max-md:mt-10">13:00</div>
-                  <div className="mt-14 max-md:mt-10">14:00</div>
-                  <div className="mt-14 max-md:mt-10">15:00</div>
-                  <div className="mt-14 max-md:mt-10">16:00</div>
-                </div>
-                <div className="shrink-0 w-0.5 border-2 border-solid bg-stone-300 border-stone-300 h-[784px]" />
-                <div className="flex flex-col self-start mt-2">
-                  <div className="flex gap-5 justify-between items-start self-center max-w-full text-center whitespace-nowrap w-[293px]">
-                    <div className="flex flex-col text-white">
-                      <div className="text-lg">Sat</div>
-                      <div className="mt-7 text-2xl">21</div>
-                    </div>
-                    <div className="flex flex-col self-stretch">
-                      <div className="text-lg text-emerald-200">Mon</div>
-                      <div className="justify-center items-center mt-2.5 w-14 h-14 text-2xl text-black bg-emerald-200 rounded-[30px]">
-                        22
-                      </div>
-                    </div>
-                    <div className="flex flex-col text-white">
-                      <div className="text-lg">Tue</div>
-                      <div className="mt-7 text-2xl">23</div>
-                    </div>
-                  </div>
-                  Continuing from where we left off:
-                  <div className="flex gap-3 justify-between items-start pb-20 mt-16 text-base text-zinc-950 max-md:mt-10">
-                    <div className="justify-center self-start p-3.5 mt-0 rounded-3xl backdrop-blur-[80px] bg-neutral-800">
-                      Daily syn...
-                    </div>
-                    <img
-                      loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/331352ed-5b2d-482e-ad59-c7a1e3cfb84a?apiKey=c6fdaf582f1c400daeb8eaaff6846c8c&"
-                      alt="Calendar event"
-                      className="z-10 grow shrink-0 self-end mt-2 backdrop-blur-2xl aspect-[1.01] basis-0 w-fit max-md:max-w-full"
-                    />
-                  </div>
-                </div>
-              </div>
+            <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
+              <img
+                loading="lazy"
+                src="/aivee_homepage_03.png"
+                alt=""
+                className="w-full backdrop-blur-2xl max-md:max-w-full"
+              />
             </div>
           </div>
         </div>

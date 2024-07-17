@@ -22,15 +22,9 @@ const FeatureSection: React.FC = () => {
             <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4fc48a5634c432cfd0cb1d97bd154298a16324371906c971a4596c88b152618?apiKey=c6fdaf582f1c400daeb8eaaff6846c8c&"
+                src="/aivee_homepage_02.png"
                 alt=""
-                className="self-end mr-36 rounded-full aspect-[1.16] w-[90px] max-md:mr-2.5"
-              />
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/0e356bc2-3091-48d2-b028-30919f24986e?apiKey=c6fdaf582f1c400daeb8eaaff6846c8c&"
-                alt="Event creation interface"
-                className="w-full backdrop-blur-2xl aspect-[1.27] max-md:max-w-full"
+                className="w-full backdrop-blur-2xl max-md:max-w-full"
               />
             </div>
           </div>

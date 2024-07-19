@@ -21,19 +21,21 @@ const Terms: React.FC = () => {
                   Welcome to Aivee.xyz, an AI scheduling sidekick application provided by OFF LIVE PTE. LTD. ("Company," "we," or "us"). By accessing or using our application, you agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, please do not use our application.
                 </p>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>Acceptance of Terms</strong>
-                  <p>By using Aivee.xyz, you acknowledge that you have read, understood, and agree to be bound by these Terms, as well as our Privacy Policy.</p>
-                </p>
+                  <p>
+                    By using Aivee.xyz, you acknowledge that you have read, understood, and agree to be bound by these Terms, as well as our Privacy Policy.
+                  </p>
+                </div>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>Description of Service</strong>
                   <p>
                     Aivee.xyz is an AI-powered application that analyzes user-provided screenshots to extract relevant information and assists users in managing their schedules by suggesting events to be added to their calendar.
                   </p>
-                </p>
+                </div>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>User Responsibilities</strong>
                   <p>
                     When using Aivee.xyz, you agree to:
@@ -44,21 +46,21 @@ const Terms: React.FC = () => {
                       <li>d. Not attempt to disrupt or interfere with the functioning of the application.</li>
                     </ul>
                   </p>
-                </p>
+                </div>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>Intellectual Property Rights</strong>
                   <p>
                     All intellectual property rights related to Aivee.xyz, including trademarks, copyrights, and patents, are owned by the Company. You may not use or reproduce any of our intellectual property without our prior written consent.
                   </p>
-                </p>
+                </div>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>User-Generated Content</strong>
                   <p>
                     By uploading screenshots to Aivee.xyz, you grant the Company a non-exclusive, worldwide, royalty-free license to use and analyze the content within the application for the sole purpose of extracting relevant information and assisting you in managing your schedule by suggesting events to be added to your calendar. The Company does not claim ownership of your content and will not use it for any other purposes without your explicit consent.
                   </p>
-                </p>
+                </div>
 
                 <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>User-Generated Content</strong>
@@ -67,40 +69,40 @@ const Terms: React.FC = () => {
                   </p>
                 </p>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>Disclaimer of Warranties</strong>
                   <p>
                     Aivee.xyz is provided on an "as is" and "as available" basis. We disclaim all warranties, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
                   </p>
-                </p>
+                </div>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>Limitation of Liability</strong>
                   <p>
                     In no event shall the Company be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of Aivee.xyz.
                   </p>
-                </p>
+                </div>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>Indemnification</strong>
                   <p>
                     You agree to indemnify and hold the Company harmless from any claims, damages, or expenses arising from your use of Aivee.xyz or violation of these Terms.
                   </p>
-                </p>
+                </div>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>Termination</strong>
                   <p>
                     We reserve the right to terminate or suspend your access to Aivee.xyz at any time, for any reason, without prior notice.
                   </p>
-                </p>
+                </div>
 
-                <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
+                <div className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   <strong>Governing Law and Dispute Resolution</strong>
                   <p>
                     These Terms shall be governed by and construed in accordance with the laws of Singapore. Any disputes arising under these Terms shall be resolved through arbitration in accordance with the rules of the Singapore International Arbitration Centre (SIAC).
                   </p>
-                </p>
+                </div>
 
                 <p className="mt-5 text-base font-medium max-md:max-w-full max-md:text-base">
                   By using Aivee.xyz, you acknowledge that you have read, understood, and agree to be bound by these Terms of Use.

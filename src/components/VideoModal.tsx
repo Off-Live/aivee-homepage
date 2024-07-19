@@ -4,9 +4,9 @@ import "react-modal-video/scss/modal-video.scss";
 function VideoModal({ isOpen, close }: { isOpen: boolean, close: () => void }) {
     return (
         <ModalVideo
-            channel="youtube"
+            channel="custom"
             isOpen={isOpen}
-            videoId="KKNCiRWd_j0"
+            url="/aivee_intro.mp4"
             onClose={close}
         />
     );

@@ -16,7 +16,7 @@ const Header: React.FC = () => {
               alt=""
               className="shrink-0 aspect-square w-[87px]"
             />
-            <div className="my-auto max-md:max-w-full md:invisible">AiVee</div>
+            <div className="my-auto max-md:max-w-full max-sm:invisible">AiVee</div>
           </Link>
         </div>
         <button className="justify-center px-10 py-3 my-auto text-2xl bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-5">

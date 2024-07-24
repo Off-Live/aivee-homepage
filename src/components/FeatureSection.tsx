@@ -7,13 +7,13 @@ const FeatureSection: React.FC = () => {
   return (
     <section className="flex justify-center items-center px-16 py-20 w-full max-md:px-5 max-md:max-w-full">
       <div className="mt-40 mb-28 w-full max-w-[1440px] max-md:my-10 max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+        <div className="flex gap-40 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch my-auto font-semibold max-md:mt-10 max-md:max-w-full">
-              <h2 className="text-4xl text-emerald-200 max-md:max-w-full">
+              <h2 className="text-4xl max-md:text-xl text-emerald-200 max-md:max-w-full">
                 Instant Event Creation
               </h2>
-              <h3 className="mt-5 text-6xl text-white max-md:max-w-full max-md:text-4xl">
+              <h3 className="mt-5 text-[44px] leading-normal text-white max-md:max-w-full max-md:text-2xl">
                 Transform Your Screenshots into Engaging Events!
               </h3>
             </div>

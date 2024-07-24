@@ -8,7 +8,7 @@ function VideoModal({ isOpen, close }: { isOpen: boolean, close: () => void }) {
             isOpen={isOpen}
             url="/aivee_intro.mp4"
             onClose={close}
-            ratio="3:4"
+            ratio="4:3"
         />
     );
 }

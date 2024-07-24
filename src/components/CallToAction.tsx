@@ -8,31 +8,31 @@ const CallToAction: React.FC = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="flex justify-center items-center px-16 py-20 w-full max-md:px-5 max-md:max-w-full">
+    <section className="flex justify-center items-center px-16 w-full max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col mt-3 mb-3 w-full max-w-[1440px] max-md:max-w-full">
         <h2 className="text-4xl font-medium text-center text-white max-md:max-w-full">
           Coming soon!
         </h2>
-        <div className="flex flex-col items-center p-16 mt-16 rounded-[60px] max-md:px-5 max-md:mt-10 max-md:max-w-full relative ">
+        <div className="flex flex-col items-center p-16 rounded-[60px] max-md:px-5 max-md:max-w-full relative ">
           <img
             loading="lazy"
             src="/phone.png"
-            alt="Product preview"
+            alt="AiVee phone"
             className="max-w-full aspect-[0.97] w-[360px]"
           />
-          <button className="absolute w-12 top-[242px] max-md:top-[238px]" type="button" onClick={() => setOpen(!isOpen)}>
+          <button className="absolute w-12 top-[37%] max-md:top-[33%]" type="button" onClick={() => setOpen(!isOpen)}>
             <img
               loading="lazy"
               src="/play.png"
-              alt="Product preview"
+              alt="AiVee play button"
               className="max-w-full aspect-[0.97] w-[360px]"
             />
           </button>
-          <h3 className="self-stretch text-6xl font-medium text-center text-white max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+          <h3 className="self-stretch text-5xl font-medium text-center text-white max-md:mt-10 max-md:max-w-full max-md:text-2xl">
             Ready to <span className="text-white">take control </span>of your
             time?
           </h3>
-          <button className="justify-center px-20 py-6 mt-12 text-3xl font-semibold bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-8 max-md:mt-10" type="button">
+          <button className="justify-center px-20 py-6 mt-12 text-3xl max-md:text-xl font-semibold bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-8 max-md:mt-10" type="button">
             Join Waitlist
           </button>
         </div>

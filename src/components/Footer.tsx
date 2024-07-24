@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex relative justify-center items-center px-16 py-10 w-full text-emerald-200 backdrop-blur-[80px] bg-zinc-950 bg-opacity-20 max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <footer className="flex relative justify-center items-center px-16 pb-10 w-full text-emerald-200 backdrop-blur-[80px] bg-zinc-950 bg-opacity-20 max-md:px-5 max-md:max-w-full">
       <div className="flex gap-5 justify-between w-full max-w-[1436px] max-md:flex-wrap max-md:max-w-full max-md:flex-col max-md:content-center">
         <address className="flex not-italic text-xl max-md:text-base">
           <a href="mailto:hello@aivee.xyz" className="text-inherit">

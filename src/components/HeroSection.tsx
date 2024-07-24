@@ -7,18 +7,18 @@ const HeroSection: React.FC = () => {
   return (
     <section className="flex justify-center items-center p-16 w-full max-md:px-5 max-md:max-w-full">
       <div className="w-full max-w-[1440px] max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+        <div className="flex gap-40 max-xl:gap-20 max-md:flex-col">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch pr-3 my-auto font-semibold max-md:mt-10 max-md:max-w-full">
-              <h2 className="text-4xl text-emerald-200 max-md:max-w-full">
+              <h2 className="text-4xl max-md:text-xl text-emerald-200 max-md:max-w-full">
                 AI-Powered Smart Scheduling
               </h2>
-              <h1 className="mt-5 text-6xl text-white max-md:max-w-full max-md:text-4xl">
+              <h1 className="mt-5 text-[44px] leading-normal text-white max-md:max-w-full max-md:text-2xl font-semibold">
                 Effortlessly Plan with Just a Screenshot
               </h1>
             </div>
           </div>
-          <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
               <img
                 loading="lazy"

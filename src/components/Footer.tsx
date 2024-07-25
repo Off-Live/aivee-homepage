@@ -6,7 +6,7 @@ import React from "react";
 const Footer: React.FC = () => {
   return (
     <footer className="flex relative justify-center items-center w-full text-emerald-200 backdrop-blur-[80px] bg-zinc-950 bg-opacity-20 max-md:max-w-full">
-      <div className="flex gap-5 justify-between w-full max-w-[75rem] px-12 pt-8 pb-10 text-[1rem] font-normal max-md:flex-wrap max-md:max-w-full max-md:flex-col max-md:content-center">
+      <div className="flex gap-5 justify-between w-full max-w-[75rem] px-12 pt-8 pb-10 max-md:pt-4 text-[1rem] font-normal max-md:flex-wrap max-md:max-w-full max-md:flex-col max-md:content-center">
         <address className="flex not-italic text-xl max-md:text-base">
           <a href="mailto:hello@aivee.xyz" className="text-inherit">
             Contact: hello@aivee.xyz

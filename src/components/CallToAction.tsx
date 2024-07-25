@@ -10,7 +10,7 @@ const CallToAction: React.FC = () => {
 
   return (
     <section className="flex justify-center items-center w-full max-md:max-w-full">
-      <div className="flex flex-col w-full max-w-[75rem] max-h-[50rem] max-md:max-w-full px-12 py-10 max-md:px-10">
+      <div className="flex flex-col w-full max-w-[75rem] max-h-[50rem] max-md:max-w-full px-12 py-10 max-md:px-10 max-md:pb-4">
         <h2 className="text-4xl max-md:text-xl font-medium text-center text-white max-md:max-w-full">
           Coming soon!
         </h2>

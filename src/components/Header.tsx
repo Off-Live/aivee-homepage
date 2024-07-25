@@ -6,21 +6,21 @@ import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
-    <nav className="flex justify-center items-center px-16 py-5 w-full font-semibold bg-zinc-950 max-md:px-5 max-md:max-w-full sticky top-0 z-50">
-      <div className="flex gap-0 justify-between max-md:flex-wrap w-full max-w-[1440px] max-md:max-w-full">
+    <nav className="flex justify-center items-center w-full font-semibold bg-zinc-950 max-md:max-w-full sticky top-0 z-50 backdrop-blur-[80px] bg-opacity-70">
+      <div className="flex gap-0 justify-between items-center content-center max-md:flex-wrap w-full max-w-[75rem] max-h-16 max-md:max-w-full px-10 py-6 max-md:px-10">
         <div className="text-4xl text-white whitespace-nowrap max-md:flex-wrap">
           <Link className="flex flex-1 gap-2.5" to={'/'}>
             <img
               loading="lazy"
               src="/aivee.png"
               alt=""
-              className="shrink-0 aspect-square w-[50px]"
+              className="shrink-0 aspect-square w-[2.5rem]"
             />
             <div className="my-auto text-xl max-md:max-w-full max-sm:invisible">AiVee</div>
           </Link>
         </div>
         <Link to={'https://emkd1hav7wo.typeform.com/to/SlakC6t7'} target="_blank">
-          <button className="justify-center px-10 py-3 my-auto text-lg bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-5">
+          <button className="justify-center px-6 py-2.5 my-auto text-lg max-md:text-base bg-emerald-200 rounded-[100px] text-zinc-950">
             Join Waitlist
           </button>
         </Link>

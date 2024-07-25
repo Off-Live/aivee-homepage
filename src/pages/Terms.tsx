@@ -4,8 +4,8 @@ import Layout from "../components/Layout";
 const Terms: React.FC = () => {
   return (
     <Layout>
-      <section className="flex justify-center items-center p-16 w-full max-md:px-5 max-md:max-w-full">
-        <div className="w-full max-w-[1440px] max-md:max-w-full">
+      <section className="flex justify-center items-center w-full max-md:max-w-full">
+        <div className="w-full max-w-[75rem] p-10">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
             <div className="flex flex-col ml-5 max-md:ml-0 max-md:w-full">
               <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full text-justify">

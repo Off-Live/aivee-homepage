@@ -19,9 +19,11 @@ const Header: React.FC = () => {
             <div className="my-auto text-xl max-md:max-w-full max-sm:invisible">AiVee</div>
           </Link>
         </div>
-        <button className="justify-center px-10 py-3 my-auto text-lg bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-5">
-          Join Waitlist
-        </button>
+        <Link to={'https://emkd1hav7wo.typeform.com/to/SlakC6t7'} target="_blank">
+          <button className="justify-center px-10 py-3 my-auto text-lg bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-5">
+            Join Waitlist
+          </button>
+        </Link>
       </div>
     </nav>
   );

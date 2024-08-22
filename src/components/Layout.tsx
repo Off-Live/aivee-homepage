@@ -11,7 +11,7 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="flex flex-col justify-center bg-zinc-950">
+    <div className="flex flex-col justify-center bg-zinc-950 bg-global bg-cover">
       <Header />
       <main>{children}</main>
       <Footer />

@@ -6,6 +6,8 @@ import Layout from "../components/Layout";
 import HeroSection from "../components/HeroSection";
 import FeatureSection from "../components/FeatureSection";
 import InvitationSection from "../components/InvitationSection";
+import ContactMatchSection from "../components/ContactMatchSection";
+import GoogleCalSection from "../components/GoogleCalSection";
 import CallToAction from "../components/CallToAction";
 
 const Home: React.FC = () => {
@@ -14,6 +16,8 @@ const Home: React.FC = () => {
       <HeroSection />
       <FeatureSection />
       <InvitationSection />
+      <ContactMatchSection />
+      <GoogleCalSection />
       <CallToAction />
     </Layout>
   );

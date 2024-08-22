@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: () => ({
+        'global': "url('/aivee_bg.svg')",
+       })
+    },
   },
   plugins: [],
 }

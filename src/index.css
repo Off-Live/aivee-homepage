@@ -22,3 +22,10 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+.gradient-text {
+  background: linear-gradient(90deg, #ABF6C8 58.88%, #DEFF15 91.15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -3,26 +3,26 @@
  */
 import React from "react";
 
-const InvitationSection: React.FC = () => {
+const ContactMatchSection: React.FC = () => {
   return (
-    <section className="flex justify-center items-center w-full max-md:max-w-full mb-[6.25] py-[10.4rem]">
+    <section className="flex justify-center items-center w-full max-md:max-w-full mb-[6.25] py-[10.62rem]">
       <div className="w-full max-w-[75rem] max-h-[50rem] max-md:max-w-full">
         <div className="flex gap-[6.25rem] max-xl:gap-20 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
+            <div className="flex flex-col grow max-md:mt-10 max-w-[28.72rem]">
               <img
                 loading="lazy"
-                src="/aivee_events.svg"
+                src="/aivee_contact_match.svg"
                 alt=""
-                className="w-full backdrop-blur-2xl max-md:max-w-full"
+                className="w-full backdrop-blur-2xl max-w-[28.72rem]"
               />
             </div>
           </div>
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full">
-              <span className="text-emerald-200 border-[1px] border-emerald-200 rounded-[3.125rem] w-fit px-4 py-[0.625rem] gap-[0.625rem] text-[1rem] font-normal leading-normal">Instant Event Creation</span>
+              <span className="text-emerald-200 border-[1px] border-emerald-200 rounded-[3.125rem] w-fit px-4 py-[0.625rem] gap-[0.625rem] text-[1rem] font-normal leading-normal">Contacts Match</span>
               <h2 className="text-[3.5rem] font-medium leading-[4.5rem] max-md:text-xl max-md:max-w-full my-[1.38rem]">
-                <span className="gradient-text">Automatic</span> event details extraction
+                <span className="gradient-text">Intelligent</span> contact matching and suggestions
               </h2>
               <h3 className="text-[1.25rem] font-normal leading-normal opacity-60 text-white max-md:max-w-full">
               Aivee scans and extracts key details from your screenshots, generating event names, descriptions, locations, time zones, and durations.
@@ -35,4 +35,4 @@ const InvitationSection: React.FC = () => {
   );
 };
 
-export default InvitationSection;
+export default ContactMatchSection;

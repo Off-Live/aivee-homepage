@@ -14,7 +14,7 @@ const InvitationSection: React.FC = () => {
                 loading="lazy"
                 src="/aivee_events.svg"
                 alt=""
-                className="w-full backdrop-blur-2xl max-md:max-w-full"
+                className="w-full max-md:max-w-full"
               />
             </div>
           </div>

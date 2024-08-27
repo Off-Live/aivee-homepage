@@ -14,7 +14,7 @@ const ContactMatchSection: React.FC = () => {
                 loading="lazy"
                 src="/aivee_contact_match.svg"
                 alt=""
-                className="w-full backdrop-blur-2xl max-w-[28.72rem]"
+                className="w-full max-w-[28.72rem]"
               />
             </div>
           </div>

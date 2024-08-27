@@ -14,7 +14,7 @@ const GoogleCalSection: React.FC = () => {
                 loading="lazy"
                 src="/aivee_gg_events.svg"
                 alt=""
-                className="w-full backdrop-blur-2xl max-w-[31.25rem]"
+                className="w-full max-w-[31.25rem]"
               />
             </div>
           </div>

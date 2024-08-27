@@ -34,7 +34,7 @@ const Header: React.FC = () => {
               alt=""
               className="shrink-0 aspect-square h-12 max-md:h-9"
             />
-            <div className="my-auto text-xl max-md:max-w-full max-md:text-lg">AiVee</div>
+            <div className="my-auto text-xl max-md:max-w-full max-md:text-lg">Aivee</div>
           </Link>
         </div>
         <Link to={'https://emkd1hav7wo.typeform.com/to/SlakC6t7'} target="_blank">

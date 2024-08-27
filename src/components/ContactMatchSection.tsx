@@ -25,7 +25,7 @@ const ContactMatchSection: React.FC = () => {
                 <span className="gradient-text">Intelligent</span> contact matching and suggestions
               </h2>
               <h3 className="text-[1.25rem] font-normal leading-normal opacity-60 text-white max-md:w-[21.25rem] max-md:text-[1.125rem] max-md:text-center">
-              Aivee scans and extracts key details from your screenshots, generating event names, descriptions, locations, time zones, and durations.
+              Aivee stores your contact history and matches invitees with your Google Contacts, suggesting the best email addresses and eliminating the need for manual entry.
               </h3>
             </div>
           </div>

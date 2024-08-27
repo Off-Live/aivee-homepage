@@ -24,23 +24,23 @@ const Header: React.FC = () => {
   }, [])
 
   return (
-    <nav className={`flex justify-center items-center w-full font-semibold max-h-24 sticky top-0 z-50 ${scrollClass}`}>
-      <div className="flex gap-0 justify-between items-center content-center max-md:flex-wrap w-full max-w-[75rem] max-md:max-w-full py-4 px-[4.5rem]">
+    <nav className={`flex justify-center items-center w-full font-semibold max-h-24 sticky top-0 z-50 max-md:max-h-[4.75rem] ${scrollClass}`}>
+      <div className="flex gap-0 justify-between items-center content-center max-md:flex-wrap w-full py-4 px-[4.5rem] max-md:px-[1.25rem]">
         <div className="text-4xl text-white whitespace-nowrap max-md:flex-wrap">
           <Link className="flex flex-1 gap-2.5" to={'/'}>
             <img
               loading="lazy"
               src="/aivee.png"
               alt=""
-              className="shrink-0 aspect-square h-12"
+              className="shrink-0 aspect-square h-12 max-md:h-9"
             />
-            <div className="my-auto text-xl max-md:max-w-full max-sm:invisible">AiVee</div>
+            <div className="my-auto text-xl max-md:max-w-full max-md:text-lg">AiVee</div>
           </Link>
         </div>
         <Link to={'https://emkd1hav7wo.typeform.com/to/SlakC6t7'} target="_blank">
-          <button className="justify-center px-11 py-4 my-auto text-lg max-md:text-base bg-emerald-200 rounded-[3.125rem] text-zinc-950">
+          <span className="justify-center px-11 py-4 my-auto text-lg max-h-[3.25rem] bg-emerald-200 rounded-[3.125rem] text-zinc-950 max-md:text-base max-md:max-h-6 max-md:py-[0.6rem] max-md:px-6">
             Join Waitlist
-          </button>
+          </span>
         </Link>
       </div>
     </nav>

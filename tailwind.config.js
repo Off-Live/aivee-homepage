@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: () => ({
         'global': "url('/aivee_bg.svg')",
+        'mobile': "url('/aivee_bg_mobile.svg')",
        })
     },
   },

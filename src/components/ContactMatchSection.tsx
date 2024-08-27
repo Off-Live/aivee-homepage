@@ -5,8 +5,8 @@ import React from "react";
 
 const ContactMatchSection: React.FC = () => {
   return (
-    <section className="flex justify-center items-center w-full max-md:max-w-full mb-[6.25] py-[10.62rem]">
-      <div className="w-full max-w-[75rem] max-h-[50rem] max-md:max-w-full">
+    <section className="flex justify-center items-center w-full my-[6.25rem] py-40 max-md:max-w-full max-md:py-0 max-md:px-0 max-md:mb-[8.75rem]">
+      <div className="w-full max-w-[75rem] max-h-[50rem] max-md:px-[1.3rem]">
         <div className="flex gap-[6.25rem] max-xl:gap-20 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow max-md:mt-10 max-w-[28.72rem]">
@@ -19,12 +19,12 @@ const ContactMatchSection: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full">
-              <span className="text-emerald-200 border-[1px] border-emerald-200 rounded-[3.125rem] w-fit px-4 py-[0.625rem] gap-[0.625rem] text-[1rem] font-normal leading-normal">Contacts Match</span>
-              <h2 className="text-[3.5rem] font-medium leading-[4.5rem] max-md:text-xl max-md:max-w-full my-[1.38rem]">
+            <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full max-md:items-center">
+              <span className="text-emerald-200 border-[1px] border-emerald-200 rounded-[3.125rem] w-fit px-4 py-[0.625rem] gap-[0.625rem] text-[1rem] font-normal leading-normal max-md:text-[0.75rem]">Contacts Match</span>
+              <h2 className="text-[3.5rem] font-medium leading-[4.5rem] my-[1.38rem] max-md:text-[2rem] max-md:max-w-full max-md:leading-normal max-md:my-[1.35rem] max-md:w-[21.25rem] max-md:text-center">
                 <span className="gradient-text">Intelligent</span> contact matching and suggestions
               </h2>
-              <h3 className="text-[1.25rem] font-normal leading-normal opacity-60 text-white max-md:max-w-full">
+              <h3 className="text-[1.25rem] font-normal leading-normal opacity-60 text-white max-md:w-[21.25rem] max-md:text-[1.125rem] max-md:text-center">
               Aivee scans and extracts key details from your screenshots, generating event names, descriptions, locations, time zones, and durations.
               </h3>
             </div>

@@ -9,7 +9,7 @@ const CallToAction: React.FC = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="flex justify-center items-center w-full max-md:max-w-full py-40 max-md:pb-0">
+    <section className="flex justify-center items-center w-full max-md:max-w-full max-md:pb-0">
       <div className="flex flex-col justify-center items-center w-full max-w-[75rem] h-[50rem] max-md:max-w-full max-md:h-[33.75rem]">
         <h3 className="self-stretch text-4xl font-medium text-center text-white max-md:max-w-full max-md:text-2xl max-md:leading-normal">
           Start scheduling with Aivee

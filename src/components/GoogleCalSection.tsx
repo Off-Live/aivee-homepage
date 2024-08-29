@@ -20,12 +20,11 @@ const GoogleCalSection: React.FC = () => {
           </div>
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full max-md:items-center">
-              <span className="text-emerald-200 border-[1px] border-emerald-200 rounded-[3.125rem] w-fit px-4 py-[0.625rem] gap-[0.625rem] text-[1rem] font-normal leading-normal max-md:text-[0.75rem]">Integration to Google Calendar</span>
               <h2 className="text-[3.5rem] font-medium leading-[4.5rem] my-[1.38rem] max-md:text-[2rem] max-md:max-w-full max-md:leading-normal max-md:my-[1.35rem] max-md:w-[21.25rem] max-md:text-center">
                 <span className="gradient-text">Seamless</span> integration to Google Calendar
               </h2>
               <h3 className="text-[1.25rem] font-normal leading-normal opacity-60 text-white max-md:w-[21.25rem] max-md:text-[1.125rem] max-md:text-center">
-              Add your event to Google Calendar with a single click. Aivee automatically sends out invites to all participants and updates your calendar.
+              Add your event to Google Calendar with just one click. Aivee will automatically send out invites to all participants and keep your calendar updated.
               </h3>
             </div>
           </div>

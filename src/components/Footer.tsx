@@ -7,18 +7,16 @@ const Footer: React.FC = () => {
   return (
     <footer className="flex relative flex-col justify-center items-center w-full text-emerald-200 backdrop-blur-[80px] bg-zinc-950 bg-opacity-20 max-md:max-w-full">
       <div className="flex gap-5 justify-between w-full max-w-[75rem] px-12 pt-8 pb-5 max-md:pt-4 text-[1rem] font-normal max-md:flex-wrap max-md:max-w-full max-md:flex-col max-md:content-center max-md:gap-2">
-        <address className="flex not-italic text-xl max-md:text-base max-md:justify-center">
+        <address className="flex flex-col justify-center not-italic text-xl max-md:text-base max-md:items-center max-md:leading-8 max-md:tracking-tighter">
           <a href="mailto:hello@aivee.xyz" className="text-inherit">
             Contact: hello@aivee.xyz
           </a>
+          <a href="https://www.off.live" className="mt-2 max-md:mt-0">Build with ❤ by off.live</a>
         </address>
-        <div className="flex flex-col justify-center text-xl max-md:text-base max-md:text-center max-md:flex-row max-md:gap-5 max-md:items-baseline">
+        <div className="flex flex-col justify-center items-center text-xl max-md:text-base max-md:text-center max-md:leading-8 max-md:tracking-tighter">
           <a href="/privacy-policy" className="text-inherit">Privacy Policy</a>
-          <a href="/terms-of-use" className="mt-2 text-inherit">Terms of use</a>
+          <a href="/terms-of-use" className="mt-2 text-inherit max-md:mt-0">Terms of use</a>
         </div>
-      </div>
-      <div className="flex justify-center content-center w-full max-w-[75rem] px-12 pb-5 text-[1rem] font-normal max-md:flex-wrap max-md:max-w-full">
-          <span className="text-base max-md:text-base max-md:text-center">Buidl with ❤ by <a href="https://www.off.live">off.live</a></span>
       </div>
     </footer>
   );

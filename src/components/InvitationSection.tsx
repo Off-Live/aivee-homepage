@@ -20,7 +20,6 @@ const InvitationSection: React.FC = () => {
           </div>
           <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full max-md:items-center">
-              <span className="text-emerald-200 border-[1px] border-emerald-200 rounded-[3.125rem] w-fit px-4 py-[0.625rem] gap-[0.625rem] text-[1rem] font-normal leading-normal max-md:text-[0.75rem]">Instant Event Creation</span>
               <h2 className="text-[3.5rem] font-medium leading-[4.5rem] my-[1.38rem] max-md:text-[2rem] max-md:max-w-full max-md:leading-normal max-md:my-[1.35rem] max-md:w-[21.25rem] max-md:text-center">
                 <span className="gradient-text">Automatic</span> event details extraction
               </h2>

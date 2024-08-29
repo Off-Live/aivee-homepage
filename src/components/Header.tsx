@@ -9,7 +9,7 @@ const Header: React.FC = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 100) {
-      setScrollClass('bg-zinc-950 backdrop-blur-[80px] bg-opacity-70');
+      setScrollClass('bg-zinc-950 backdrop-blur-[50px] bg-opacity-10');
     } else {
       setScrollClass('');
     }
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           </Link>
         </div>
         <Link to={'https://emkd1hav7wo.typeform.com/to/SlakC6t7'} target="_blank">
-          <span className="justify-center px-11 py-4 my-auto text-lg max-h-[3.25rem] bg-emerald-200 rounded-[3.125rem] text-zinc-950 max-md:text-base max-md:max-h-6 max-md:py-[0.6rem] max-md:px-6">
+          <span className="justify-center px-[2.625rem] py-[0.75rem] my-auto text-base max-h-[3.25rem] bg-emerald-200 rounded-[3.125rem] text-zinc-950 max-md:text-base max-md:max-h-6 max-md:py-[0.6rem] max-md:px-6">
             Join Waitlist
           </span>
         </Link>

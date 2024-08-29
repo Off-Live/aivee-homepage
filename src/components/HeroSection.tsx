@@ -9,8 +9,8 @@ const HeroSection: React.FC = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="flex justify-center items-center w-full max-md:max-w-full py-[6.25rem] max-md:pt-20 max-md:pb-32">
-      <div className="flex flex-col justify-center items-center w-full px-12 max-md:px-[1.3rem]">
+    <section className="flex justify-center items-center w-full max-w-full py-[6.25rem] max-md:pt-20 max-md:pb-32">
+      <div className="flex flex-col justify-center items-center w-[75rem] px-12 max-md:w-full max-md:px-[1.3rem]">
         <h2 className="max-w-[64rem] leading-[4.5rem] text-[4rem] -tracking-[0.08rem] font-medium text-center gap-1 mb-6 bg-gradient-text max-md:text-[2rem] max-md:leading-[2.625rem] max-md:w-80">
           Faster and easier scheduling process with a <span className="gradient-text">screenshot</span>
         </h2>
@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
         </h3>
         <div className="flex flex-col justify-center items-center max-md:flex-col-reverse">
           <Link to={'https://emkd1hav7wo.typeform.com/to/SlakC6t7'} target="_blank" className="max-md:w-full">
-            <button className="justify-center px-[3.75rem] py-[0.875rem] text-2xl font-semibold bg-emerald-200 rounded-[100px] text-zinc-950 my-12 h-[4.25rem] max-md:text-xl max-md:py-[1rem] max-md:px-[2.62rem] max-md:w-full max-md:h-[3.87rem]" type="button">
+            <button className="justify-center px-[2.625rem] py-[0.75rem] text-xl font-semibold bg-emerald-200 rounded-[100px] text-zinc-950 my-12 h-14 max-md:text-xl max-md:py-[1rem] max-md:px-[2.62rem] max-md:w-full max-md:h-[3.87rem]" type="button">
               Join Waitlist
             </button>
           </Link>

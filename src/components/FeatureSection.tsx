@@ -7,7 +7,7 @@ const FeatureSection: React.FC = () => {
   return (
     <section className="flex justify-center items-center w-full my-[6.25rem] py-44 px-[9.38rem] max-md:max-w-full max-md:py-0 max-md:px-0 max-md:mb-[8.75rem]">
       <div className="w-full max-w-[75rem] max-h-[50rem] max-md:px-[1.3rem]">
-        <div className="flex gap-[6.25rem] max-md:flex-col max-md:gap-10">
+        <div className="flex gap-[6.25rem] max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-6/12 max-md:w-full">
             <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
               <img

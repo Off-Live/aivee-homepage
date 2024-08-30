@@ -12,7 +12,7 @@ const ContactMatchSection: React.FC = () => {
             <div className="flex flex-col grow max-md:mt-10 max-w-[28.72rem]">
               <img
                 loading="lazy"
-                src="/aivee_contact_match.svg"
+                src="/aivee_contact_match.png"
                 alt=""
                 className="w-full max-w-[28.72rem]"
               />

@@ -12,7 +12,7 @@ const FeatureSection: React.FC = () => {
             <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
               <img
                 loading="lazy"
-                src="/aivee_ss_uploading.svg"
+                src="/aivee_ss_uploading.png"
                 alt=""
                 className="w-full max-md:max-w-full"
               />

@@ -26,14 +26,14 @@ const HeroSection: React.FC = () => {
           <div className="flex flex-col items-center max-md:max-w-full relative max-md:my-[3.75rem]">
             <img
               loading="lazy"
-              src="/aivee_ip.svg"
+              src="/aivee_ip.png"
               alt="AiVee phone"
               className="w-[47.5rem] max-md:w-full"
             />
             <button className="absolute w-20 max-md:w-14 top-[36%]" type="button" onClick={() => setOpen(!isOpen)}>
               <img
                 loading="lazy"
-                src="/play_btn.svg"
+                src="/play_btn.png"
                 alt="AiVee play button"
                 className="max-w-full w-[5rem]"
               />

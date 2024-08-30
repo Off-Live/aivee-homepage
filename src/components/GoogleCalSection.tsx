@@ -12,7 +12,7 @@ const GoogleCalSection: React.FC = () => {
             <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
               <img
                 loading="lazy"
-                src="/aivee_gg_events.svg"
+                src="/aivee_gg_events.png"
                 alt=""
                 className="w-full max-w-[31.25rem]"
               />

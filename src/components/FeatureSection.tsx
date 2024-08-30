@@ -19,7 +19,7 @@ const FeatureSection: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col w-6/12 max-md:w-full">
-            <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full max-md:items-center">
+            <div className="flex flex-col self-stretch my-auto max-md:max-w-full max-md:items-center">
               <h2 className="text-[3.5rem] font-medium leading-[4.5rem] my-[1.38rem] max-md:text-[2rem] max-md:max-w-full max-md:leading-normal max-md:my-[1.35rem] max-md:w-[21.25rem] max-md:text-center">
                 <span className="gradient-text">Schedule</span> anything with a screenshot
               </h2>

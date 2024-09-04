@@ -8,14 +8,6 @@ const Header: React.FC = () => {
   const [typeform, setTypeform] = useState('');
   const [scrollClass, setScrollClass] = useState('');
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTypeform(localStorage.getItem('typeform_url') || '');
-    }, 1000);
-    
-    return clearInterval(timer);
-  }, []);
-
   const handleScroll = () => {
     if (window.scrollY > 100) {
       setScrollClass('bg-zinc-950 backdrop-blur-[50px] bg-opacity-10');
@@ -26,9 +18,13 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
+    const timer = setInterval(() => {
+      setTypeform(localStorage.getItem('typeform_url') || '');
+    }, 1000);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      clearInterval(timer);
     }
   }, [])
 

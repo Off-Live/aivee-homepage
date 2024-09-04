@@ -5,7 +5,12 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
+  const [typeform, setTypeform] = useState('');
   const [scrollClass, setScrollClass] = useState('');
+
+  useEffect(() => {
+    setTypeform(localStorage.getItem('typeform_url') || '');
+  }, []);
 
   const handleScroll = () => {
     if (window.scrollY > 100) {
@@ -37,7 +42,7 @@ const Header: React.FC = () => {
             <div className="my-auto text-xl max-md:max-w-full max-md:text-lg">Aivee</div>
           </Link>
         </div>
-        <Link to={'https://emkd1hav7wo.typeform.com/to/SlakC6t7'} target="_blank">
+        <Link to={typeform} target="_blank">
           <span className="justify-center px-[2.625rem] py-[0.75rem] my-auto text-base max-h-[3.25rem] bg-emerald-200 rounded-[3.125rem] text-zinc-950 max-md:text-base max-md:max-h-6 max-md:py-[0.6rem] max-md:px-6">
             Join Waitlist
           </span>

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import VideoModal from "./VideoModal";
 
-const HeroSection: React.FC = () => {
+const HeroSection: React.FC<{ typeform: string }> = ({ typeform }) => {
   const [isOpen, setOpen] = useState(false);
 
   return (
@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
         Simply upload any screenshot, and Aivee will generate an event and sync it with your Google Calendar.
         </h3>
         <div className="flex flex-col justify-center items-center max-md:flex-col-reverse">
-          <Link to={'https://emkd1hav7wo.typeform.com/to/SlakC6t7'} target="_blank" className="max-md:w-full">
+          <Link to={typeform} target="_blank" className="max-md:w-full">
             <button className="justify-center px-[2.625rem] py-[0.75rem] text-xl font-medium bg-emerald-200 rounded-[100px] text-zinc-950 my-12 h-14 max-md:text-lg max-md:py-[1rem] max-md:px-[2.62rem] max-md:w-full max-md:h-[3.87rem]" type="button">
               Join Waitlist
             </button>

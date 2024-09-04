@@ -9,7 +9,11 @@ const Header: React.FC = () => {
   const [scrollClass, setScrollClass] = useState('');
 
   useEffect(() => {
-    setTypeform(localStorage.getItem('typeform_url') || '');
+    const timer = setInterval(() => {
+      setTypeform(localStorage.getItem('typeform_url') || '');
+    }, 1000);
+    
+    return clearInterval(timer);
   }, []);
 
   const handleScroll = () => {

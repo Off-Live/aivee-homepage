@@ -43,7 +43,7 @@ const Header: React.FC = () => {
           </Link>
         </div>
         <Link to={typeform} target="_blank">
-          <span className="justify-center px-[2.625rem] py-[0.75rem] my-auto text-base max-h-[3.25rem] bg-emerald-200 rounded-[3.125rem] text-zinc-950 max-md:text-base max-md:max-h-6 max-md:py-[0.6rem] max-md:px-6">
+          <span className="justify-center px-[2.625rem] py-[0.75rem] my-auto text-base max-h-[3.25rem] bg-emerald-200 rounded-[3.125rem] text-zinc-950 font-medium max-md:text-base max-md:max-h-6 max-md:py-[0.6rem] max-md:px-6">
             Join Waitlist
           </span>
         </Link>

@@ -6,14 +6,14 @@ import React from "react";
 const Footer: React.FC = () => {
   return (
     <footer className="flex relative flex-col justify-center items-center w-full text-gray-300 backdrop-blur-[80px] bg-zinc-950 bg-opacity-20 max-md:max-w-full">
-      <div className="flex gap-5 justify-between w-full max-w-[75rem] px-12 pt-8 pb-5 max-md:pt-4 text-[1rem] font-normal max-md:flex-wrap max-md:max-w-full max-md:flex-col max-md:content-center max-md:gap-2">
-        <address className="flex flex-col justify-center not-italic text-xl max-md:text-base max-md:items-center max-md:leading-8 max-md:tracking-tighter">
+      <div className="flex gap-5 justify-between w-full max-w-[75rem] px-12 py-8 max-md:py-4 text-[1rem] font-normal max-md:flex-wrap max-md:max-w-full max-md:flex-col max-md:content-center max-md:gap-2">
+        <address className="flex flex-col justify-center not-italic text-base max-md:items-center max-md:leading-8 max-md:tracking-tighter">
           <a href="mailto:hello@aivee.xyz" className="text-inherit">
             Contact: <span className="underline">hello@aivee.xyz</span>
           </a>
           <a href="https://www.off.live" className="mt-2 max-md:mt-0">Build with ❤ by <span className="underline">off.live</span></a>
         </address>
-        <div className="flex flex-col justify-center items-center text-xl underline max-md:text-base max-md:text-center max-md:leading-8 max-md:tracking-tighter">
+        <div className="flex flex-col justify-center items-center text-base no-underline max-md:text-center max-md:leading-8 max-md:tracking-tighter">
           <a href="/privacy-policy" className="text-inherit">Privacy Policy</a>
           <a href="/terms-of-use" className="mt-2 text-inherit max-md:mt-0">Terms of use</a>
         </div>

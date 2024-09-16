@@ -10,7 +10,7 @@ const Header: React.FC = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 100) {
-      setScrollClass('bg-zinc-950 backdrop-blur-[50px] bg-opacity-10');
+      setScrollClass('bg-zinc-950 bg-opacity-[1%] backdrop-blur-[100px]');
     } else {
       setScrollClass('');
     }

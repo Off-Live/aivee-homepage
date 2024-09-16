@@ -18,12 +18,18 @@ const HeroSection: React.FC<{ typeform: string }> = ({ typeform }) => {
         Simply upload any screenshot, and Aivee will generate an event and sync it with your Google Calendar.
         </h3>
         <div className="flex flex-col justify-center items-center max-md:flex-col-reverse">
-          <Link to={typeform} target="_blank" className="max-md:w-full">
-            <button className="justify-center px-[2.625rem] py-[0.75rem] text-lg font-medium bg-emerald-200 rounded-[100px] text-zinc-950 my-12 h-14 max-md:text-lg max-md:py-[1rem] max-md:px-[2.62rem] max-md:w-full max-md:h-[3.87rem]" type="button">
+          {/*<Link to={typeform} target="_blank" className="max-md:w-full">*/}
+          {/*  <button className="justify-center px-[2.625rem] py-[0.75rem] text-lg font-medium bg-emerald-200 rounded-[100px] text-zinc-950 my-12 h-14 max-md:text-lg max-md:py-[1rem] max-md:px-[2.62rem] max-md:w-full max-md:h-[3.87rem]" type="button">*/}
+          {/*    Join Waitlist*/}
+          {/*  </button>*/}
+          {/*</Link>*/}
+
+          <Link to={typeform} target="_blank">
+            <button className="justify-center px-[2.625rem] py-[0.75rem] text-lg font-medium bg-emerald-200 rounded-[100px] text-zinc-950 max-md:text-lg max-md:px-8 mt-12 max-md:mt-6" type="button">
               Join Waitlist
             </button>
           </Link>
-          <div className="flex flex-col items-center max-md:max-w-full relative max-md:my-[3.75rem]">
+          <div className="flex flex-col items-center max-md:max-w-full relative my-12 max-md:mb-[2rem]">
             <img
               loading="lazy"
               src="/aivee_ip.png"
@@ -37,7 +43,7 @@ const HeroSection: React.FC<{ typeform: string }> = ({ typeform }) => {
                 alt="AiVee play button"
                 className="max-w-full w-[5rem]"
               />
-            </button>          
+            </button>
           </div>
         </div>
       </div>

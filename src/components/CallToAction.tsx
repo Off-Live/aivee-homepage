@@ -15,7 +15,7 @@ const CallToAction: React.FC<{ typeform: string }> = ({ typeform }) => {
           Start scheduling with Aivee
         </h3>
         <Link to={typeform} target="_blank">
-          <button className="justify-center px-[2.625rem] py-[0.75rem] text-xl font-medium bg-emerald-200 rounded-[100px] text-zinc-950 max-md:text-lg max-md:px-8 mt-12 max-md:mt-6" type="button">
+          <button className="justify-center px-[2.625rem] py-[0.75rem] text-lg font-medium bg-emerald-200 rounded-[100px] text-zinc-950 max-md:px-8 mt-12 max-md:mt-6" type="button">
             Join Waitlist
           </button>
         </Link>
